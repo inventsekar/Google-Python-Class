@@ -24,12 +24,14 @@
 # and donuts(23) returns 'Number of donuts: many'
 
 def donuts(count):
- output = "Number of donuts:"
+# output = "Number of donuts:"
  if count < 10:
-  output = output + str(count)
+ # output = output + str(count)
+  return 'Number of donuts: ' + str(count)
  else:
-  output = "Numer of donuts: many"
- return output
+ # output = "Numer of donuts: many"
+  return 'Number of donuts: many'
+# return output
 
 
 '''
